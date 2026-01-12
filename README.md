@@ -1,5 +1,3 @@
-# ctf-lab
-CTF writeups and security tooling demonstrating hands-on cybersecurity skills.
 # CTF Lab & Security Projects
 
 This repository documents my hands-on work solving Capture The Flag (CTF)
@@ -21,9 +19,9 @@ publishing flags or spoilers.
 - Hack The Box
 
 ## Structure
-- writeups/ -> CTF challenge writeups
-- tools/ -> Custom scripts and helpers
-- screenshots/ -> Supporting images
+writeups/ -> CTF challenge writeups
+tools/ -> Custom scripts and helpers
+screenshots/ -> Supporting images
 
 ## Disclaimer
 Writeups avoid publishing sensitive solutions or flags and are intended for educational and professional demonstration purposes.
