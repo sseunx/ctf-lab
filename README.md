@@ -1,2 +1,29 @@
 # ctf-lab
 CTF writeups and security tooling demonstrating hands-on cybersecurity skills.
+# CTF Lab & Security Projects
+
+This repository documents my hands-on work solving Capture The Flag (CTF)
+challenges and building small security tools to support analysis and investigation.
+
+The focus is on methodology, tooling, and clear technical documentation rather than
+publishing flags or spoilers.
+
+## Skills Demonstrated
+- Web security & authentication analysis
+- Forensics & log analysis
+- Blue team investigation techniques
+- Python scripting for security automation
+- Technical documentation
+
+## Platforms
+- picoCTF
+- TryHackMe
+- Hack The Box
+
+## Structure
+- writeups/ -> CTF challenge writeups
+- tools/ -> Custom scripts and helpers
+- screenshots/ -> Supporting images
+
+## Disclaimer
+Writeups avoid publishing sensitive solutions or flags and are intended for educational and professional demonstration purposes.
