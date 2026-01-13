@@ -25,3 +25,9 @@ screenshots/ -> Supporting images
 
 ## Disclaimer
 Writeups avoid publishing sensitive solutions or flags and are intended for educational and professional demonstration purposes.
+
+## Featured Project: Authentication Bypass via Debug Header
+
+This project demonstrates identification and exploitation of a client-side trust flaw
+where a hidden debug HTTP header granted unauthorized access to protected resources.
+The focus is on vulnerability analysis, not brute-force techniques.
