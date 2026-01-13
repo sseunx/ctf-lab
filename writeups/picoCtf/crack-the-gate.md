@@ -3,9 +3,7 @@
 **category:** Web exploitation 
 
 ## description
-We’re in the middle of an investigation. One of our persons of interest, ctf player, is believed to be hiding sensitive data inside a restricted 
-web portal. We’ve uncovered the email address he uses to log in: ctf-player@picoctf.org. Unfortunately, we don’t know the password, and the usual
-guessing techniques haven’t worked. But something feels off... it’s almost like the developer left a secret way in. Can you figure it out?
+We’re in the middle of an investigation. One of our persons of interest, ctf player, is believed to be hiding sensitive data inside a restricted web portal. We’ve uncovered the email address he uses to log in: ctf-player@picoctf.org. Unfortunately, we don’t know the password, and the usual guessing techniques haven’t worked. But something feels off... it’s almost like the developer left a secret way in. Can you figure it out?
 
 ## objective 
 Gain unauthorized access to a restircted web portal using a known email aderess 
@@ -14,3 +12,8 @@ Gain unauthorized access to a restircted web portal using a known email aderess
 The challenge presents a web based login portal associated with a restricted system. A valid email address is known, but standard passsword
 guessing techniques are ineffective, suggesting a flaw in authentiucation logic rather than credntial strength
 
+## Aproacach
+the initaial step was to observe how the application handled invalid input.
+diffrent combinations of valid andinvalid credenttials were submitted to identify inconsitences in error handling or authentication logic 
+
+Based on the challenge context and response behavior, the focus shifts toward testing weather user input waas being incorperated into backend queries without proper validation 
