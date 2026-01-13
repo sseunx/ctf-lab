@@ -1,0 +1,7 @@
+## Lessons Learned
+
+- Client-side validation does not provide security guarantees
+- Debug or development-only access paths must be removed before deployment
+- Obfuscated comments do not equal security
+- HTTP headers are part of the attack surface
+- Sensitive data should never be returned to unauthorized clients
